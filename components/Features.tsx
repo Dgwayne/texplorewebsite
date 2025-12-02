@@ -1,10 +1,10 @@
 'use client'
 
 import { siteConfig } from '@/siteConfig'
-import { Pickaxe, Sword, TrendingUp, Rocket, Target, Infinity } from 'lucide-react'
+import { Hammer, Sword, TrendingUp, Rocket, Target, Infinity } from 'lucide-react'
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-  pickaxe: Pickaxe,
+  pickaxe: Hammer,
   sword: Sword,
   upgrade: TrendingUp,
   rocket: Rocket,
@@ -29,7 +29,7 @@ export default function Features() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {siteConfig.features.map((feature, index) => {
-            const Icon = iconMap[feature.icon] || Pickaxe
+            const Icon = iconMap[feature.icon] || Hammer
             return (
               <div
                 key={index}

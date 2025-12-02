@@ -1,7 +1,7 @@
 'use client'
 
 import { siteConfig } from '@/siteConfig'
-import { Download, Windows, Linux, Apple, Check } from 'lucide-react'
+import { Download, Monitor, Terminal, Apple, Check } from 'lucide-react'
 import { useState } from 'react'
 
 export default function DemoDownload() {
@@ -49,7 +49,7 @@ export default function DemoDownload() {
               className="group relative p-6 bg-slate-800/50 border border-slate-700/50 rounded-xl hover:border-accent-emerald/50 transition-all hover:shadow-lg hover:shadow-accent-emerald/10 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <div className="flex flex-col items-center space-y-3">
-                <Windows className="w-10 h-10 text-blue-400" />
+                <Monitor className="w-10 h-10 text-blue-400" />
                 <div className="text-center">
                   <div className="font-semibold text-white">Windows</div>
                   <div className="text-sm text-slate-400">{siteConfig.demo.windows.size}</div>
@@ -68,7 +68,7 @@ export default function DemoDownload() {
               className="group relative p-6 bg-slate-800/50 border border-slate-700/50 rounded-xl hover:border-accent-emerald/50 transition-all hover:shadow-lg hover:shadow-accent-emerald/10 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               <div className="flex flex-col items-center space-y-3">
-                <Linux className="w-10 h-10 text-yellow-400" />
+                <Terminal className="w-10 h-10 text-yellow-400" />
                 <div className="text-center">
                   <div className="font-semibold text-white">Linux</div>
                   <div className="text-sm text-slate-400">{siteConfig.demo.linux.size}</div>
