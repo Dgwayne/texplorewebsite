@@ -49,7 +49,7 @@ export default function Hero() {
                 className="group flex items-center justify-center space-x-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-semibold text-lg transition-all hover:scale-105 hover:shadow-lg hover:shadow-blue-600/50 w-full sm:w-auto"
               >
                 <ShoppingCart className="w-5 h-5" />
-                <span>Buy on Steam</span>
+                <span>Wishlist on Steam</span>
               </a>
             </div>
 

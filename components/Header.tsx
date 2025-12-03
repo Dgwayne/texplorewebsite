@@ -72,7 +72,7 @@ export default function Header() {
               className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-500 hover:to-blue-600 text-white rounded-lg transition-all hover:scale-105 shadow-lg shadow-blue-600/50"
             >
               <ShoppingCart className="w-4 h-4" />
-              <span>Buy on Steam</span>
+              <span>Wishlist on Steam</span>
             </a>
           </div>
 
@@ -127,7 +127,7 @@ export default function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <ShoppingCart className="w-4 h-4" />
-                <span>Buy on Steam</span>
+                <span>Wishlist on Steam</span>
               </a>
             </div>
           </div>
